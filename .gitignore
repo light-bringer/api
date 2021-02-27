@@ -26,11 +26,17 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#packagefile
-package-lock.json
-package.json
-
 # Dependency directories
 node_modules/
 jspm_packages/
 
+venv/
+tmp/
+.vscode
+
+# Vim
+*.swp
+*.swo
+
+# Debug script
+fetch.sh
